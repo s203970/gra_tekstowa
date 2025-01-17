@@ -346,11 +346,10 @@ def prompt():
             os.system('cls')
             pytanie = random.choice(listapytan)
         elif player_answer_10 == 'nie':
-            myPlayer.military -= 10
+            myPlayer.military += 10
             myPlayer.religion -= 10
             myPlayer.money -= 10
-            myPlayer.food -= 10
-            myPlayer.people -= 10
+            myPlayer.people += 5
             os.system('cls')
             pytanie = random.choice(listapytan)
 
