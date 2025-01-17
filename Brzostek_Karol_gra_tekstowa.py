@@ -38,7 +38,7 @@ def title_screen_selections():
         print("Wprowadz poprawna komende.")
         option = input("> ")
         if option.lower() == ("graj"):
-            setup_game() #napisac to
+            setup_game() 
         elif option.lower() == ("pomoc"):
             help_menu()
         elif option.lower() == ("wyjdz"):
